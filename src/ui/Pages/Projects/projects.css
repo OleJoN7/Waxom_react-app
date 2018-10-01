@@ -1,0 +1,183 @@
+.projects__main .main-header {
+  background: linear-gradient(to right, #E7E9BB, #403B4A);
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .projects__main .main-header h1 {
+    font: 1.5em "RaleRegular", sans-serif;
+    font-weight: bold; }
+
+.project {
+  padding: 80px 0 75px;
+  text-align: center; }
+  .project .project__title {
+    font: 30px "RaleSemiBold", sans-serif;
+    color: #555;
+    padding-bottom: 30px; }
+  .project .project__subtitle {
+    font: 16px "MontSerratLight", sans-serif;
+    color: #8c8c8c;
+    line-height: 28px;
+    padding: 0 200px 35px; }
+  .project .project__names-list {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px; }
+    .project .project__names-list li {
+      margin-right: 10px; }
+  .project .project__works-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 35px; }
+    .project .project__works-list .project__item {
+      flex-basis: calc(100% / 3);
+      padding: 0 15px;
+      margin-bottom: 30px;
+      position: relative; }
+    .project .project__works-list .project__item-title {
+      background: #fbfaf8;
+      padding-top: 30px;
+      text-align: left;
+      position: relative;
+      transition: .15s all linear; }
+      .project .project__works-list .project__item-title:after {
+        content: '';
+        position: absolute;
+        left: 20px;
+        bottom: 117px;
+        border: 20px solid transparent;
+        border-bottom: 15px solid #fbfaf8;
+        transition: .15s all linear; }
+    .project .project__works-list .project__item-subtitle-text {
+      color: #d1d1d1;
+      font: 14px "MontSerratLight", sans-serif;
+      text-transform: capitalize;
+      padding: 0 0 30px 30px; }
+    .project .project__works-list .project__item-title-text {
+      color: #c7b299;
+      font: 20px "RaleMedium", sans-serif;
+      text-transform: capitalize;
+      padding: 0 0 15px 30px; }
+
+.project__item:hover .button_link {
+  visibility: visible; }
+
+.project__item:hover .button_lupa {
+  visibility: visible; }
+
+.project__item-img {
+  position: relative; }
+
+.project__item-img:after {
+  display: block;
+  content: '';
+  background: #000;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: .15s all linear; }
+
+.project__item:hover .project__item-img:after {
+  opacity: .5; }
+
+.project__item:hover {
+  transition: 1s all linear; }
+  .project__item:hover .project__item-title {
+    background: #362f2d;
+    transition: .15s all linear; }
+    .project__item:hover .project__item-title:after {
+      content: '';
+      position: absolute;
+      left: 20px;
+      bottom: 117px;
+      border: 20px solid transparent;
+      border-bottom: 15px solid #362f2d; }
+  .project__item:hover .project__item-title-text {
+    color: #fff; }
+  .project__item:hover .project__item-subtitle-text {
+    color: #c7b299; }
+
+/*React animation*/
+.fade-enter {
+  opacity: 0; }
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: .2s all linear; }
+
+.fade-leave {
+  opacity: 1; }
+
+.fade-leave.fade-leave-active {
+  opacity: 0;
+  transition: .2s all linear; }
+
+.fade-appear {
+  opacity: 0; }
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: .2s all linear; }
+
+/*------------Video------------*/
+.video-react .video-react-poster {
+  background-size: cover; }
+
+.video-react .video-react-big-play-button {
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: transparent url("./ProjectsSections/VideoSection/images/icon-play.png") 50% no-repeat;
+  transform: translate(-50%, -50%); }
+  .video-react .video-react-big-play-button:before {
+    content: ''; }
+
+.project__video {
+  position: relative;
+  color: #fff;
+  text-align: center; }
+
+.poster__title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30%; }
+  .poster__title h3 {
+    font: 30px "RaleMedium", sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 25px; }
+  .poster__title .poster__subtitle {
+    color: #fff;
+    font: 16px "MontSerratLight", sans-serif;
+    line-height: 28px;
+    padding-bottom: 40px; }
+
+.none {
+  opacity: 0;
+  transition: .2s all linear; }
+
+/*-----SingleItem--------*/
+.project__single-item-main .project__single-item-section {
+  text-align: center;
+  padding-top: 70px;
+  height: 100vh; }
+  .project__single-item-main .project__single-item-section .project__name {
+    font: 18px "RaleSemiBold", sans-serif;
+    padding-bottom: 20px; }
+.project__single-item-main .main-header {
+  background: linear-gradient(to right, #E7E9BB, #403B4A);
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .project__single-item-main .main-header h1 {
+    font: 1.5em "RaleRegular", sans-serif;
+    font-weight: bold; }
+
+/*# sourceMappingURL=projects.css.map */

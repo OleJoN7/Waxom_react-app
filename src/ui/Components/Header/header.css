@@ -1,0 +1,33 @@
+.main-header {
+  color: #FFF;
+  padding-bottom: 280px; }
+  .main-header .logo {
+    font: 28px "RaleRegular", sans-serif;
+    display: flex;
+    align-items: center; }
+    .main-header .logo a {
+      display: inline-block;
+      width: 64px;
+      height: 56px; }
+  .main-header .nav__list {
+    font: 14px "MontSerratLight",sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .main-header .nav__list .nav__list-item {
+      padding-right: 30px; }
+      .main-header .nav__list .nav__list-item a {
+        color: #fff;
+        transition: .3s all linear; }
+    .main-header .nav__list .nav__list-icon {
+      padding-left: 30px; }
+
+.enter {
+  color: #c7b299 !important;
+  transition: 0.5s all linear; }
+
+.leave {
+  color: #fff !important;
+  transition: 0.5s all linear; }
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAQ;EACN,KAAK,EAAC,kBAAkB;EACxB,UAAU,EAAE,eAAe",
+"sources": ["activePage.scss"],
+"names": [],
+"file": "activePage.css"
+}

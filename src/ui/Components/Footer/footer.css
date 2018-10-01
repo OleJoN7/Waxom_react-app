@@ -1,0 +1,126 @@
+footer {
+  flex: 0 0 auto;
+  color: #fff;
+  font: 14px "MontSerratLight", sans-serif;
+  line-height: 24px; }
+  footer .footer__text-info {
+    transition: .2s all linear;
+    color: #555;
+    padding-bottom: 35px; }
+    footer .footer__text-info .footer__text-time {
+      color: #363636; }
+  footer .footer__post {
+    border-bottom: 1px solid #363636; }
+  footer .footer__resent-list li {
+    transition: .2s all linear; }
+  footer .footer__resent-list li:last-child {
+    border: none; }
+  footer .footer__resent-list .footer__text {
+    color: #555;
+    padding-bottom: 20px; }
+  footer .footer__resent-list .footer__text-time {
+    padding-top: 15px; }
+  footer .footer__twit-list li {
+    transition: .2s all linear; }
+  footer .footer__twit-list li:last-child {
+    border: none; }
+  footer .footer__twit-list .footer__text-time {
+    padding: 10px 0 20px 0; }
+  footer .footer__twit-list .footer__text {
+    color: #555;
+    padding-top: 15px; }
+  footer .footer__list-wrap {
+    background: #191919;
+    padding: 75px 0; }
+  footer .footer__list {
+    display: flex;
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto; }
+    footer .footer__list > li {
+      flex-basis: calc(100% / 4);
+      margin-right: 30px; }
+      footer .footer__list > li:last-child {
+        margin: 0; }
+    footer .footer__list .footer__logo {
+      display: flex;
+      align-items: center;
+      padding-bottom: 30px; }
+      footer .footer__list .footer__logo .footer__logo-link {
+        display: block;
+        width: 64px;
+        height: 56px; }
+      footer .footer__list .footer__logo h2 {
+        font: 34px "RaleRegular", sans-serif;
+        padding-left: 5px; }
+    footer .footer__list h3 {
+      font: 24px "RaleBold", sans-serif; }
+    footer .footer__list .footer__widget-header {
+      padding-bottom: 35px; }
+    footer .footer__list .footer__resent-header, footer .footer__list .footer__twit-header {
+      padding-bottom: 15px; }
+  footer .footer__widget-list {
+    display: flex;
+    flex-wrap: wrap; }
+    footer .footer__widget-list li {
+      flex-basis: calc(100% / 2);
+      padding: 0 10px 10px 0; }
+  footer .footer__resent-list .footer__text:hover, footer .footer__twit-list .footer__text:hover, footer .footer__text-info:hover {
+    color: #c7b299; }
+  footer .footer__resent-list .footer__text:hover .footer__text-time, footer .footer__twit-list .footer__text:hover .footer__text-time {
+    color: #fff; }
+  footer .footer__sub {
+    background: #111;
+    padding: 40px 0;
+    font: 13px "MontSerratLight",sans-serif;
+    color: #555; }
+    footer .footer__sub .footer__sub-list {
+      display: flex; }
+      footer .footer__sub .footer__sub-list li {
+        padding: 0 10px;
+        position: relative; }
+        footer .footer__sub .footer__sub-list li:after {
+          content: '';
+          border-right: 1px solid #555;
+          display: block;
+          width: 1px;
+          height: 13px;
+          position: absolute;
+          right: 0;
+          top: 2px; }
+        footer .footer__sub .footer__sub-list li:first-child {
+          padding-left: 0; }
+        footer .footer__sub .footer__sub-list li:last-child:after {
+          display: none; }
+        footer .footer__sub .footer__sub-list li a {
+          align-items: center;
+          color: #555;
+          transition: .2s all linear; }
+      footer .footer__sub .footer__sub-list a:hover {
+        color: #fff; }
+    footer .footer__sub .footer__design-link {
+      color: #555;
+      display: inline-block;
+      position: relative;
+      padding-right: 10px;
+      transition: .2s all linear; }
+      footer .footer__sub .footer__design-link:after {
+        content: '';
+        border-right: 1px solid #555;
+        display: block;
+        width: 1px;
+        height: 13px;
+        position: absolute;
+        right: 0;
+        top: 2px; }
+      footer .footer__sub .footer__design-link:hover {
+        color: #fff; }
+    footer .footer__sub .footer__market-link {
+      color: #555;
+      display: inline-block;
+      padding-left: 10px;
+      transition: .2s all linear; }
+      footer .footer__sub .footer__market-link:hover {
+        color: #fff; }
+
+/*# sourceMappingURL=footer.css.map */

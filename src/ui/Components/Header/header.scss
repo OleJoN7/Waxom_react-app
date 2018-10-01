@@ -1,0 +1,38 @@
+.main-header {
+  color:#FFF;
+  padding-bottom: 280px;
+  .logo {
+    font: 28px "RaleRegular", sans-serif;
+    display: flex;
+    align-items: center;
+    a {
+      display: inline-block;
+      width: 64px;
+      height: 56px;
+    }
+  }
+  .nav__list {
+    font:14px "MontSerratLight",sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .nav__list-item {
+      padding-right: 30px;
+      a {
+        color:#fff;
+        transition: .3s all linear;
+      }
+    }
+    .nav__list-icon {
+      padding-left: 30px;
+    }
+  }
+}
+.enter {
+  color:#c7b299 !important;
+  transition:0.5s all linear;
+}
+.leave {
+  color:#fff !important;
+  transition:0.5s all linear;
+}

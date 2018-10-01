@@ -1,0 +1,109 @@
+.features__main {
+  /*----------DeviceSection-----------*/
+  /*------StatisticSection-----------*/
+  /*-------------PostsSection----------------*/
+  /*---- PartnersSection-------*/ }
+  .features__main .main-header {
+    background: linear-gradient(to right, #E7E9BB, #403B4A);
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .features__main .main-header h1 {
+      font: 1.5em "RaleRegular", sans-serif;
+      font-weight: bold; }
+  .features__main .device {
+    padding-top: 70px; }
+    .features__main .device .device__img-wrap, .features__main .device .device__description {
+      flex-basis: calc(100% / 2); }
+    .features__main .device .device__description {
+      align-self: center; }
+      .features__main .device .device__description .device__description-title {
+        font: 30px "RaleSemiBold", sans-serif;
+        color: #555;
+        padding-bottom: 35px; }
+      .features__main .device .device__description .device__description-text {
+        font: 16px "MontSerratLight", sans-serif;
+        line-height: 28px;
+        color: #8c8c8c;
+        padding-bottom: 35px; }
+    .features__main .device .device__advantages-list {
+      padding-left: 40px; }
+    .features__main .device .device__advantage-item {
+      display: flex;
+      padding-bottom: 20px; }
+      .features__main .device .device__advantage-item .arrow-wrap {
+        min-width: 21px;
+        min-height: 21px;
+        margin-right: 20px; }
+      .features__main .device .device__advantage-item p {
+        font: 16px "MontSerratLight", sans-serif;
+        color: #8c8c8c;
+        line-height: 22px; }
+  .features__main .statistic {
+    background: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+    padding: 70px 0 55px 0; }
+    .features__main .statistic .statistic__list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .features__main .statistic .statistic__list .statistic__list-item {
+        margin: 0 auto;
+        text-align: center;
+        align-content: center; }
+        .features__main .statistic .statistic__list .statistic__list-item:after {
+          content: '';
+          display: block;
+          border-bottom: 2px solid #fff;
+          width: 30px;
+          margin: 0 auto; }
+      .features__main .statistic .statistic__list .img-wrap {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto 30px; }
+      .features__main .statistic .statistic__list .statistic__count {
+        font: 48px "MontSerratLight", sans-serif;
+        margin-bottom: 14px;
+        color: #fff; }
+      .features__main .statistic .statistic__list .statistic__title {
+        font: 14px "MontSerratLight", sans-serif;
+        color: #c7b299;
+        text-transform: uppercase;
+        margin-bottom: 30px; }
+  .features__main .posts {
+    padding: 75px 0 110px;
+    margin: 0 auto; }
+    .features__main .posts .posts__header {
+      font: 30px "RaleSemiBold", sans-serif;
+      color: #555;
+      text-align: center;
+      padding-bottom: 30px; }
+    .features__main .posts .posts__text {
+      font: 16px "MontSerratLight", sans-serif;
+      color: #8c8c8c;
+      line-height: 28px;
+      padding: 0 150px 40px;
+      text-align: center; }
+  .features__main .partners {
+    padding: 130px 0;
+    background: url("./PartnersSection/images/partners-bg.jpg");
+    background-size: cover; }
+    .features__main .partners .partners__list {
+      display: flex;
+      justify-content: space-between; }
+
+/*------SInglePost--------*/
+.features__single-post-main .post__single-item-section {
+  text-align: center;
+  padding-top: 70px;
+  height: 100vh; }
+  .features__single-post-main .post__single-item-section .post__name {
+    font: 18px "RaleSemiBold", sans-serif;
+    padding-bottom: 20px; }
+.features__single-post-main .main-header {
+  background: linear-gradient(to right, #E7E9BB, #403B4A);
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .features__single-post-main .main-header h1 {
+    font: 1.5em "RaleRegular", sans-serif;
+    font-weight: bold; }
+
+/*# sourceMappingURL=features.css.map */

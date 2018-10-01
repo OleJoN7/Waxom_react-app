@@ -1,0 +1,22 @@
+export const partnersData = [
+    {
+        id:1,
+        image:require('./images/logo-01.png'),
+        link:'#'
+    },
+    {
+        id:2,
+        image:require('./images/logo-02.png'),
+        link:'#'
+    },
+    {
+        id:3,
+        image:require('./images/logo-03.png'),
+        link:'#'
+    },
+    {
+        id:4,
+        image:require('./images/logo-04.png'),
+        link:'#'
+    }
+];

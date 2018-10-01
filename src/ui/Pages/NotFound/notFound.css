@@ -1,0 +1,19 @@
+.not-found {
+  background: url("./images/404.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative; }
+  .not-found .explanation {
+    font: 24px "RaleExtra",sans-serif;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    transform: translateX(-50%);
+    color: #fff; }
+  .not-found .button-wrap {
+    position: absolute;
+    left: 80%;
+    bottom: 15%; }
+
+/*# sourceMappingURL=notFound.css.map */

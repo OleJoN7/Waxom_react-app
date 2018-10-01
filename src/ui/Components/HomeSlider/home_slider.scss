@@ -1,0 +1,70 @@
+.welcome .slick-slider {
+  color:#fff;
+  text-align: center;
+  padding-bottom:330px;
+  .slider__secondaryHeader {
+    font:34px "RaleMedium",sans-serif;
+    padding-bottom:15px;
+  }
+  .slider__mainHeader {
+    font:56px "RaleExtra",sans-serif;
+    padding-bottom:30px;
+  }
+  .slider__text {
+    font:16px "MontSerratLight",sans-serif;
+    padding:0 350px 50px 350px;
+  }
+  .slick-next {
+    top:25%;
+    &:before {
+      content: '';
+      display: block;
+      opacity: .5;
+      width: 40px;
+      height: 73px;
+      background: url('./images/right.png') 50% no-repeat;
+      transition: .3s all linear;
+    }
+    &:hover:before {
+      opacity:.75;
+    }
+  }
+  .slick-prev {
+    top:25%;
+    &:before {
+      content:'';
+      display:block;
+      width:40px;
+      height:73px;
+      background:url('./images/left.png') 50% no-repeat;
+      transition: .2s all linear;
+    }
+  }
+  .slick-dots {
+    bottom:50px;
+    li {
+      width:11px;
+      height:11px;
+    }
+    button {
+      width:11px;
+      height:11px;
+      background: #fff;
+      opacity: .5;
+      border-radius: 50%;
+      transition: .15s all linear;
+
+      &:before {
+        content:'';
+      }
+    }
+    .slick-active button{
+      width:13px;
+      height:13px;
+      background: #000;
+      border-radius: 50%;
+      border:2px solid #d3c1ad;
+      opacity: .8;
+    }
+  }
+}

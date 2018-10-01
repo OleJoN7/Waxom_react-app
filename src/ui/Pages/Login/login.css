@@ -1,0 +1,47 @@
+.login {
+  background: linear-gradient(to left, #cacaca, #fcfbef); }
+  .login .main-header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: linear-gradient(to right, #E7E9BB, #403B4A); }
+    .login .main-header h1 {
+      font: 1.5em "RaleRegular", sans-serif;
+      font-weight: bold; }
+  .login .login__section {
+    padding-top: 90px;
+    height: 100vh; }
+    .login .login__section .login__form {
+      width: 50%;
+      margin: 0 auto;
+      border: 2px solid #524d4d;
+      text-transform: uppercase;
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center; }
+      .login .login__section .login__form h2 {
+        font: 24px "RaleExtra",sans-serif;
+        color: #524d4d; }
+    .login .login__section .login__textfield {
+      margin: 20px 0; }
+      .login .login__section .login__textfield .login__textfield-input {
+        font: 16px "MontSerratLight",sans-serif;
+        color: #fff;
+        background: #524d4d;
+        border: 0;
+        width: 100%;
+        padding: 10px 35px 10px 15px;
+        border-radius: 15px; }
+        .login .login__section .login__textfield .login__textfield-input::placeholder {
+          color: rgba(148, 148, 148, 0.94); }
+      .login .login__section .login__textfield .password__textfield-input {
+        font: 16px "MontSerratLight",sans-serif;
+        color: #fff;
+        background: #524d4d;
+        width: 100%;
+        border: 0;
+        padding: 10px 35px 10px 15px;
+        border-radius: 15px; }
+        .login .login__section .login__textfield .password__textfield-input::placeholder {
+          color: rgba(148, 148, 148, 0.94); }
+
+/*# sourceMappingURL=login.css.map */

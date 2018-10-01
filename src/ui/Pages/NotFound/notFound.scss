@@ -1,0 +1,20 @@
+.not-found {
+  background:url('./images/404.jpg') 50% no-repeat;
+  background-size: cover;;
+  height:100vh;
+  position: relative;
+  .explanation {
+    font:24px "RaleExtra",sans-serif;
+    margin: 0 auto;
+    position: absolute;
+    left:50%;
+    bottom:30%;
+    transform: translateX(-50%);
+    color:#fff;
+  }
+  .button-wrap {
+    position: absolute;
+    left:80%;
+    bottom:15%;
+  }
+}
