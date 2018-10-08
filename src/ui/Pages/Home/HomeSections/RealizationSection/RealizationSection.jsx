@@ -68,9 +68,10 @@ function Realization() {
                 </div>
             </Container>
             <article className="realization__purchase">
-                <Container style={{display:'flex',justifyContent:'space-between'}}>
+                <Container style={{display: 'flex', justifyContent: 'space-between'}}>
                     <div className="realization__purchase-info">
-                        <h3 className="realization__purchase-header"><span className="realization__purchase_text-color">Waxom</span> Multipurpose WordPress Theme</h3>
+                        <h3 className="realization__purchase-header"><span
+                            className="realization__purchase_text-color">Waxom</span> Multipurpose WordPress Theme</h3>
                         <p className="realization__purchase-text">Don't Forget to Rate the Template. Thanks so much!</p>
                     </div>
                     <Button type="button" className="button button_purchase">Purchase now</Button>

@@ -9,11 +9,13 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
+
 body {
   font: 12px Tahoma, sans-serif;
   background: #fff;
   color: #000;
 }
+
 div,
 menu,
 p,
@@ -51,30 +53,38 @@ figure {
   outline: none;
   list-style: none;
 }
+
 button {
   cursor: pointer;
   padding: 0;
 }
+
 textarea {
   vertical-align: top;
 }
+
 input[type=submit] {
   cursor: pointer;
 }
+
 img,
 fieldset {
   border: 0;
 }
+
 img {
   vertical-align: top;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 a {
   text-decoration: none;
 }
+
 button:focus {
   outline: none;
 }
@@ -85,6 +95,7 @@ button:focus {
   font-family: 'MontSerratLight';
   src: url("./assets/fonts/Montserrat/Montserrat-Light.ttf") format('truetype');
 }
+
 @font-face {
   font-family: 'RaleBold';
   src: url("./assets/fonts/Raleway/Raleway-Bold.ttf") format('truetype');
@@ -94,14 +105,17 @@ button:focus {
   font-family: 'RaleExtra';
   src: url("./assets/fonts/Raleway/Raleway-ExtraBold.ttf") format('truetype');
 }
+
 @font-face {
   font-family: 'RaleMedium';
   src: url("./assets/fonts/Raleway/Raleway-Medium.ttf") format('truetype');
 }
+
 @font-face {
   font-family: 'RaleRegular';
   src: url("./assets/fonts/Raleway/Raleway-Regular.ttf") format('truetype');
 }
+
 @font-face {
   font-family: 'RaleSemiBold';
   src: url("./assets/fonts/Raleway/Raleway-SemiBold.ttf") format('truetype');
@@ -110,26 +124,29 @@ button:focus {
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------/FONTS------------------------------------------*/
 
-
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------DEFAULT CLASSES------------------------------*/
 /*----------------------------------------------------------------------------------*/
 * {
   box-sizing: border-box;
 }
+
 ol {
   list-style-type: decimal;
 }
+
 img {
   width: 100%;
   display: block;
   height: auto;
 }
+
 body {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
+
 .will-change {
   will-change: transform;
 }

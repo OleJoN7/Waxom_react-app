@@ -1,8 +1,8 @@
 .features__main {
   .main-header {
     background: linear-gradient(to right, #E7E9BB, #403B4A);
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     h1 {
       font: 1.5em "RaleRegular", sans-serif;
       font-weight: bold;
@@ -137,11 +137,100 @@
   }
   .main-header {
     background: linear-gradient(to right, #E7E9BB, #403B4A);
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     h1 {
       font: 1.5em "RaleRegular", sans-serif;
       font-weight: bold;
+    }
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .features__main .device .device__advantage-item p {
+    font: 14px "MontSerratLight", sans-serif;
+    line-height: 20px;
+  }
+  .poster__title {
+    bottom: 10%;
+  }
+  .button_link {
+    left: 35%;
+  }
+}
+
+@media(min-width: 451px) and (max-width: 767px) {
+  .device {
+    padding: 40px 10px 0;
+    .container {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  }
+  .features__main .device .device__advantages-list {
+    padding-left: 0;
+  }
+  .features__main .statistic .statistic__list {
+    flex-direction: column;
+  }
+  .features__main .statistic .statistic__list .statistic__list-item {
+    margin: 0 auto 20px;
+  }
+  .features__main .posts {
+    padding: 45px 0 50px;
+    margin: 0 auto;
+  }
+  .features__main .posts .posts__text {
+    padding: 0 30px 20px;
+    text-align: center;
+  }
+  .features__main .partners {
+    padding: 70px 0 !important;
+  }
+  .partners__list {
+    flex-direction: column;
+    align-items: center;
+    li {
+      width: 60%;
+      padding-bottom: 40px;
+    }
+  }
+}
+
+@media(max-width: 450px) {
+  .device {
+    padding: 40px 10px 0;
+    .container {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  }
+  .features__main .device .device__advantages-list {
+    padding-left: 0;
+  }
+  .features__main .statistic .statistic__list {
+    flex-direction: column;
+  }
+  .features__main .statistic .statistic__list .statistic__list-item {
+    margin: 0 auto 20px;
+  }
+  .features__main .posts {
+    padding: 45px 0 50px;
+    margin: 0 auto;
+  }
+  .features__main .posts .posts__text {
+    padding: 0 30px 20px;
+    text-align: center;
+  }
+  .features__main .partners {
+    padding: 70px 0 !important;
+  }
+  .partners__list {
+    flex-direction: column;
+    align-items: center;
+    li {
+      width: 60%;
+      padding-bottom: 40px;
     }
   }
 }

@@ -9,7 +9,7 @@ import Footer from '../../Components/Footer/Footer';
 import './features.scss';
 
 
-function Features({posts,user}) {
+function Features({posts, user}) {
     return (
         <main className="features__main">
             <Header user={user}/>

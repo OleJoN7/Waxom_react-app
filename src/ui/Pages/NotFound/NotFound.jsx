@@ -4,7 +4,6 @@ import {Content} from '../../Components/Content/Content';
 import {Link} from 'react-router-dom'
 import './notFound.scss'
 
-
 function NotFound() {
     return (
         <main className="not-found">

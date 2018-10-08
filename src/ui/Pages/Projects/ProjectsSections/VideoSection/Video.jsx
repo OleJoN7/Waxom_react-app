@@ -4,15 +4,17 @@ import $ from "jquery";
 
 class Video extends React.Component {
     componentDidMount() {
-        $('.video-react-big-play-button').click(function() {
+        $('.video-react-big-play-button').click(function () {
             $('.poster__title').addClass('none')
         })
     }
+
     componentWillUnmount() {
-        $('.video-react-big-play-button').click(function() {
+        $('.video-react-big-play-button').click(function () {
             $('.poster__title').removeClass('none')
         })
     }
+
     render() {
         return (
             <section className="project__video">
@@ -27,4 +29,5 @@ class Video extends React.Component {
     }
 
 }
+
 export default Video;

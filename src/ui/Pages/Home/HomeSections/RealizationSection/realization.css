@@ -17,12 +17,12 @@
     margin: 0 auto 20px;
     transition: .2s all linear; }
   .realization__list h4 {
-    font: 22px "RaleSemiBold",sans-serif;
+    font: 22px "RaleSemiBold", sans-serif;
     padding-bottom: 22px;
     color: #555555;
     transition: .2s all linear; }
   .realization__list p {
-    font: 14px "MontSerratLight",sans-serif;
+    font: 14px "MontSerratLight", sans-serif;
     color: #8c8c8c;
     line-height: 24px; }
     .realization__list p:after {
@@ -35,12 +35,12 @@
       transition: .2s all linear; }
 
 .realization__header {
-  font: 30px "RaleSemiBold",sans-serif;
+  font: 30px "RaleSemiBold", sans-serif;
   padding-bottom: 30px;
   text-align: center; }
 
 .realization__text {
-  font: 16px "MontSerratLight",sans-serif;
+  font: 16px "MontSerratLight", sans-serif;
   padding: 0 100px 40px;
   line-height: 28px;
   text-align: center; }
@@ -50,7 +50,7 @@
   background: linear-gradient(to right, #211b19 0%, #4e3427 100%);
   overflow: hidden; }
   .realization__purchase .realization__purchase-header {
-    font: 28px "RaleRegular",sans-serif;
+    font: 28px "RaleRegular", sans-serif;
     text-transform: capitalize;
     color: #fff;
     padding-bottom: 15px;
@@ -59,6 +59,60 @@
       color: #c7b299; }
   .realization__purchase .realization__purchase-text {
     color: #615855;
-    font: 18px "MontSerratLight",sans-serif; }
+    font: 18px "MontSerratLight", sans-serif; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .realization__list li {
+    margin: 0 15px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .realization__list {
+    flex-wrap: wrap;
+    padding-bottom: 50px; }
+    .realization__list li {
+      flex-basis: calc(100% / 2); } }
+@media (min-width: 451px) and (max-width: 767px) {
+  .realization__list {
+    flex-direction: column;
+    padding: 0 10px 50px; }
+
+  .realization__list .realization__list-font-icon {
+    margin: 20px auto; }
+
+  .realization__text {
+    padding: 0 30px 40px; }
+
+  .realization__purchase .container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center; }
+
+  .realization__purchase-info {
+    padding-bottom: 30px; }
+
+  .button_purchase {
+    width: 45%;
+    padding: 15px 15px; } }
+@media (max-width: 450px) {
+  .realization__list {
+    flex-direction: column;
+    padding: 0 10px 50px; }
+
+  .realization__list .realization__list-font-icon {
+    margin: 20px auto; }
+
+  .realization__text {
+    padding: 0 30px 40px; }
+
+  .realization__purchase .container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center; }
+
+  .realization__purchase-info {
+    padding-bottom: 30px; }
+
+  .button_purchase {
+    width: 45%;
+    padding: 15px 15px; } }
 
 /*# sourceMappingURL=realization.css.map */

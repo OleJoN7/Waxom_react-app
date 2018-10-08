@@ -1,8 +1,8 @@
 .login {
-background:linear-gradient(to left, #cacaca, #fcfbef);;
+  background: linear-gradient(to left, #cacaca, #fcfbef);;
   .main-header {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background: linear-gradient(to right, #E7E9BB, #403B4A);
 
     h1 {
@@ -11,47 +11,65 @@ background:linear-gradient(to left, #cacaca, #fcfbef);;
     }
   }
   .login__section {
-    padding-top:90px;
-    height:100vh;
+    padding-top: 90px;
+    height: 100vh;
     .login__form {
-      width:50%;
-      margin:0 auto;
-      border:2px solid #524d4d;
+      width: 50%;
+      margin: 0 auto;
+      border: 2px solid #524d4d;
       text-transform: uppercase;
-      padding:30px;
-      border-radius:15px;
+      padding: 30px;
+      border-radius: 15px;
       text-align: center;
       h2 {
-        font:24px "RaleExtra",sans-serif;
-        color:#524d4d;
+        font: 24px "RaleExtra", sans-serif;
+        color: #524d4d;
       }
     }
     .login__textfield {
-      margin:20px 0;
+      margin: 20px 0;
       .login__textfield-input {
-        font:16px "MontSerratLight",sans-serif;
-        color:#fff;
+        font: 16px "MontSerratLight", sans-serif;
+        color: #fff;
         background: #524d4d;
-        border:0;
-        width:100%;
-        padding:10px 35px 10px 15px;
+        border: 0;
+        width: 100%;
+        padding: 10px 35px 10px 15px;
         border-radius: 15px;
         &::placeholder {
           color: rgba(148, 148, 148, 0.94);
         }
       }
       .password__textfield-input {
-        font:16px "MontSerratLight",sans-serif;
-        color:#fff;
+        font: 16px "MontSerratLight", sans-serif;
+        color: #fff;
         background: #524d4d;
-        width:100%;
-        border:0;
-        padding:10px 35px 10px 15px;
+        width: 100%;
+        border: 0;
+        padding: 10px 35px 10px 15px;
         border-radius: 15px;
         &::placeholder {
           color: rgba(148, 148, 148, 0.94);
         }
       }
     }
+  }
+}
+
+@media(min-width: 451px) and (max-width: 767px) {
+  .login .login__section {
+    padding-top: 60px;
+  }
+  .login .login__section .login__form {
+    width: 80%;
+  }
+}
+
+@media(max-width: 450px) {
+  .login .login__section {
+    padding-top: 60px;
+  }
+  .login .login__section .login__form {
+    width: 90%;
   }
 }

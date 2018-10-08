@@ -1,5 +1,5 @@
 .main-header {
-  color:#FFF;
+  color: #FFF;
   padding-bottom: 280px;
   .logo {
     font: 28px "RaleRegular", sans-serif;
@@ -12,14 +12,14 @@
     }
   }
   .nav__list {
-    font:14px "MontSerratLight",sans-serif;
+    font: 14px "MontSerratLight", sans-serif;
     display: flex;
     justify-content: space-around;
     align-items: center;
     .nav__list-item {
       padding-right: 30px;
       a {
-        color:#fff;
+        color: #fff;
         transition: .3s all linear;
       }
     }
@@ -28,11 +28,76 @@
     }
   }
 }
+
 .enter {
-  color:#c7b299 !important;
-  transition:0.5s all linear;
+  color: #c7b299 !important;
+  transition: 0.5s all linear;
 }
+
 .leave {
-  color:#fff !important;
-  transition:0.5s all linear;
+  color: #fff !important;
+  transition: 0.5s all linear;
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .nav__list-item {
+    font: 12px "MontSerratLight", sans-serif;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav {
+    position: static;
+    transform: none;
+    .nav__list {
+      display: flex !important;
+    }
+  }
+}
+
+@media(min-width: 451px) and (max-width: 767px) {
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    .nav__list-icon {
+      display: none;
+    }
+    .nav__list-item {
+      font: 12px "MontSerratLight", sans-serif;
+      padding: 5px 10px 0 0 !important;
+      text-transform: uppercase;
+      display: inline-block;
+      width: calc(100% / 3)
+    }
+  }
+  .main-header .nav__list {
+    display: none;
+  }
+}
+
+@media(max-width: 450px) {
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    .nav__list-icon {
+      display: none;
+    }
+    .nav__list-item {
+      text-transform: uppercase;
+      display: inline-block;
+      width: auto;
+      font: 12px "MontSerratLight", sans-serif;
+      padding: 5px 10px 0 0 !important;
+    }
+  }
+  .main-header {
+    padding-bottom: 150px;
+  }
 }

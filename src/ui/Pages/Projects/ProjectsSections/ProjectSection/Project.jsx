@@ -12,6 +12,7 @@ class Project extends React.Component {
             more: false
         };
     }
+
     isAll = () => {
         let arr = this.props.data.map(item => {
             return (

@@ -146,4 +146,26 @@
       background: #da6e0e;
     }
   }
+  &_toogle {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 10px 5px 10px;
+    background: transparent;
+    transition: .2s all linear;
+    position: absolute;
+    right: 5%;
+    &:hover {
+      border-color: #c7b299;
+    }
+    .icon {
+      display: block;
+      border: 2px solid #fff;
+      width: 30px;
+      margin-bottom: 5px;
+      transition: .2s all linear;
+    }
+  }
+  &_toogle:hover .icon {
+    border-color: #c7b299;
+  }
 }

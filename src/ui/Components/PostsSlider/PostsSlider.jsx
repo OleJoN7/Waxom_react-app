@@ -6,16 +6,27 @@ import './posts_slider.scss';
 class PostsSlider extends React.Component {
     render() {
         let posts = this.props.posts;
-        let settings = {
-            dots: false,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            autoplay: false
-        };
+        if (window.matchMedia('(max-width: 767px)').matches) {
+            this.settings = {
+                dots: false,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: false
+            };
+        } else {
+            this.settings = {
+                dots: false,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: false
+            };
+        }
         return (
-            <Slider {...settings}>
+            <Slider {...this.settings}>
                 {
                     posts.map(item => {
                         return (

@@ -88,13 +88,13 @@ function Footer() {
                 </List>
             </div>
             <div className="footer__sub">
-                <Container style={{display:'flex',justifyContent:'space-between'}}>
-                <List className="footer__sub-list">
-                    <li><Link to="#"> Copyright &copy; 2015 Waxom</Link></li>
-                    <li><Link to="#"> Privacy Policy</Link></li>
-                    <li><Link to="#"> FAQ</Link></li>
-                    <li><Link to="#"> Support</Link></li>
-                </List>
+                <Container style={{display: 'flex', justifyContent: 'space-between'}}>
+                    <List className="footer__sub-list">
+                        <li><Link to="#"> Copyright &copy; 2015 Waxom</Link></li>
+                        <li><Link to="#"> Privacy Policy</Link></li>
+                        <li><Link to="#"> FAQ</Link></li>
+                        <li><Link to="#"> Support</Link></li>
+                    </List>
                     <p>Designed by <Link to="#" className="footer__design-link">ThemeFire</Link>
                         <Link to="#" className="footer__market-link">Only on Envato Market</Link>
                     </p>

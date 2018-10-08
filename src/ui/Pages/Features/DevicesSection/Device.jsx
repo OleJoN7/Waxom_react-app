@@ -8,13 +8,14 @@ import {deviceData} from './deviceData';
 const Device = () => {
     return (
         <section className="device">
-            <Container style={{display:'flex'}}>
+            <Container style={{display: 'flex'}}>
                 <div className="device__img-wrap">
                     <img src={device} alt=""/>
                 </div>
                 <div className="device__description">
                     <h2 className="device__description-title">Excellent for Mobile Devices</h2>
-                    <p className="device__description-text">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                    <p className="device__description-text">Qisi enim ad minim veniam, quis nostrud exerci tation
+                        ullamcorper suscipit lobortis
                         nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores
                         legere me lius quod ii legunt saepius claritas.
                         Eodem modo typi, qui nunc nobis videntur parum clari,

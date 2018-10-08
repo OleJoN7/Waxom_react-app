@@ -112,4 +112,11 @@
 .posts .slick-slide:hover .posts__date .date-month {
   background: #a48d72; }
 
+@media (max-width: 450px) {
+  .posts .slick-slider .slick-prev {
+    display: none; }
+
+  .posts .slick-slider .slick-next {
+    display: none; } }
+
 /*# sourceMappingURL=posts_slider.css.map */
