@@ -65,6 +65,8 @@
     transform: translateX(-50%);
     text-align: center;
     width: 100%; }
+    .nav .nav__list {
+      flex-wrap: wrap; }
     .nav .nav__list-icon {
       display: none; }
     .nav .nav__list-item {

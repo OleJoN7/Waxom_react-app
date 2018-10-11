@@ -7,7 +7,7 @@ import {projectsData} from "./data/projectsData";
 import {postsData} from "./data/postsData";
 
 ReactDOM.render(
-    <Router>
+    <Router basename="/react-waxom">
         <App projects={projectsData} posts={postsData}/>
     </Router>
     , document.getElementById('root'));

@@ -86,6 +86,9 @@
     transform: translateX(-50%);
     text-align: center;
     width: 100%;
+    .nav__list {
+      flex-wrap:wrap;
+    }
     .nav__list-icon {
       display: none;
     }
