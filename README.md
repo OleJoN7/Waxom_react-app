@@ -7,5 +7,6 @@ Also used external modules such as react slick(slider)and react-video(for deploy
 Access for several pages get only logged users(of course it is simple frontend validation,all checks must be done by backend,which i will do in next project) 
 
 # Project was deployed on github pages.
+
 #You can see this project clicking on link below:
 # https://olejon7.github.io/react-waxom/
